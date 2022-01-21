@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "GITHUB_REPOSITORY=deedmob.webflow.io GITHUB_WORKSPACE=test node index.js"
   },
   "repository": {
     "type": "git",
